@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pandas
+joblib
+scikit-learn
+dill
+requests
+evidently>=0.4.0
+sniffio
+streamlit

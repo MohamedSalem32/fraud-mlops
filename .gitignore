@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Virtual envs
+.venv/
+.venv310/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data / logs
+data/PS_20174392719_1491204439457_log.csv
+logs/*.csv
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
