@@ -2,7 +2,7 @@
 
 End-to-end project that trains a fraud detection model on transaction data, serves it as a real-time API, simulates streaming traffic, and monitors the system with dashboards and reports.
 
-This project is designed as a **portfolio / PFE-ready** example to demonstrate skills in:
+This project demonstrates:
 
 - Machine Learning on imbalanced data
 - FastAPI model serving
@@ -41,7 +41,7 @@ Main columns used:
 - `oldbalanceDest`, `newbalanceDest`: destination account balances
 - `isFraud`: target label (1 = fraud, 0 = legit)
 
-> For licensing/size reasons, you can keep only a sampled CSV in `data/` and link to Kaggle for the full dataset.
+> For licensing/size reasons, only a sampled CSV is included in `data/`; the full dataset is available on Kaggle.
 
 ---
 
@@ -400,43 +400,10 @@ python scripts/compute_production_metrics.py
 
 ---
 
-## 11. .gitignore
-
-Before pushing to GitHub, create a `.gitignore` file so you don't upload huge or unnecessary files:
-
-```gitignore
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.log
-
-# Virtual envs
-.venv/
-.venv310/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Data / logs
-data/PS_20174392719_1491204439457_log.csv
-logs/*.csv
-
-# Streamlit cache
-.streamlit/
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-```
-
-You can keep a small sample CSV in `data/` if you want (e.g. `PS_2017439..._sample.csv`) and do not ignore that one, so the repo still contains a tiny example for local testing.
----
-## 12. Contact
+## 11. Contact
 
 For questions or collaboration:
 
 - **GitHub**: [MohamedSalem32](https://github.com/MohamedSalem32)
-- **LinkedIn**: [Mohamed Mohamed Salem](https://www.linkedin.com/in/mohamed-mohamed-salem-5331a5256/)
-- **Email**: [mohamed.salem@esprit.tn](mailto:mohamed.salem@esprit.tn)
+- **LinkedIn**: [Mohamed Mohamed Salem](https://www.linkedin.com/in/mohamed-mohamed-salem/)
+- **Email**: [mohamed.salem22032@gmail.com](mailto:mohamed.salem22032@gmail.com)
